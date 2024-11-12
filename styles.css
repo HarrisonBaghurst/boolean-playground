@@ -1,5 +1,5 @@
 body { 
-    background-color: rgb(30, 30, 35); 
+    background-color: rgb(30, 30, 32); 
     width: 100vw; 
     height: 100vh; 
     padding: 0px;
@@ -8,26 +8,44 @@ body {
 }
 
 .movable { 
-    width: 4vw; 
-    height: 4vw; 
-    border: 2px solid rgb(150, 150, 150); 
+    width: 5vw; 
+    height: 5vw; 
+    background-color: rgb(150, 150, 150);
     position: absolute; 
-    top: 7vw; 
-    left: 1vw; 
+    top: 8vw; 
+    left: 2vw; 
+}
+
+.output { 
+    width: 1vw; 
+    height: 1vw; 
+    background-color: rgb(150, 150, 150);
+    position: absolute; 
+    top: 2vw;
+    left: 5vw; 
+}
+
+.input {
+    width: 1vw; 
+    height: 1vw; 
+    background-color: rgb(150, 150, 150);
+    position: absolute; 
+    top: 1vw; 
+    left: -1vw; 
 }
 
 #top-bar {
     background-color: rgb(50, 50, 50);
     width: 100%; 
-    height: 6vw; 
+    height: 7vw; 
     position: absolute; 
     top: 0; 
     left: 0; 
 }
 
 #new-div-button { 
-    width: 4vw; 
-    height: 4vw; 
+    width: 5vw; 
+    height: 5vw; 
     background-color: rgb(150, 150, 150); 
     position: absolute; 
     top: 1vw; 

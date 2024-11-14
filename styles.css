@@ -50,14 +50,14 @@ body {
 }
 
 .logic-gate { 
-    width: 7.5vw; 
-    height: 6vw;  
+    width: 5vw; 
+    height: 4vw;  
 }
 
 .new-gate-button { 
     background-color: rgb(125, 125, 125);
-    width: 7.5vw; 
-    height: 6vw; 
+    width: 5vw; 
+    height: 4vw; 
     display: flex;
     float: left;
     margin-left: 1vw;
